@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link href="./styles.css" rel="stylesheet" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <div data-server-rendered="true" id="__nuxt">
+      <footer class="footer tm-wrapper tm-container tm-grid-base" data-v-5508487d><img
+              src="/_nuxt/img/f90dec1.png" class="footer__background" data-v-5508487d />
+        <div class="row" data-v-5508487d>
+          <div class="logo__container" data-v-5508487d><a href="/" aria-current="page"
+                                                          class="logo nuxt-link-exact-active nuxt-link-active"
+                                                          data-v-5508487d>
+            <svg width="778" height="371" viewBox="0 0 778 371" fill="none" xmlns="http://www.w3.org/2000/svg"
+                 class="logo__cosmos" data-v-5508487d>
+              <g filter="url(#filter0_d-372291)">
+                <path
+                        d="M364.442 254.651C365.029 257.49 365.639 260.176 366.267 262.709C368.782 272.845 371.622 280.657 374.498 286.012C375.932 288.681 377.447 290.878 379.042 292.452C380.589 293.98 382.585 295.28 384.933 295.28C387.28 295.281 389.276 293.982 390.823 292.455C392.417 290.882 393.931 288.686 395.363 286.018C398.236 280.664 401.071 272.854 403.581 262.719C408.611 242.409 412.456 212.253 412.445 172.491C412.435 132.73 408.574 102.572 403.534 82.2593C401.018 72.1227 398.179 64.3116 395.303 58.9559C393.869 56.2871 392.354 54.0904 390.759 52.5162C389.211 50.9886 387.215 49.6884 384.868 49.6878C382.521 49.6872 380.525 50.9863 378.978 52.513C377.384 54.0864 375.87 56.2822 374.438 58.9503C371.565 64.3044 368.729 72.114 366.22 82.2493C365.573 84.8626 364.945 87.6389 364.343 90.5776C366.629 90.0002 368.951 89.517 371.307 89.1325C371.709 87.2942 372.12 85.5294 372.538 83.8381C374.978 73.9874 377.652 66.7573 380.168 62.0686C381.431 59.7151 382.582 58.1387 383.538 57.1954C384.338 56.4058 384.78 56.27 384.87 56.2474C384.959 56.2701 385.401 56.4061 386.202 57.1961C387.158 58.14 388.31 59.717 389.575 62.0711C392.093 66.7611 394.771 73.9926 397.216 83.8447C402.095 103.509 405.923 133.112 405.933 172.49C405.944 211.867 402.131 241.468 397.262 261.13C394.823 270.981 392.149 278.211 389.633 282.9C388.37 285.253 387.219 286.829 386.263 287.773C385.462 288.562 385.021 288.698 384.931 288.721C384.842 288.698 384.4 288.562 383.599 287.772C382.643 286.828 381.491 285.251 380.226 282.897C377.708 278.207 375.03 270.976 372.585 261.123C372.186 259.514 371.794 257.838 371.41 256.095C369.053 255.711 366.729 255.228 364.442 254.651Z"
+                        fill="url(#paint0_radial-372291)"></path>
+              </g>
+              <g filter="url(#filter1_d-372291)">
+                <path
+                        d="M303.939 149.24C301.791 147.309 299.786 145.433 297.921 143.619C290.461 136.357 285.163 129.976 281.995 124.789C280.416 122.205 279.285 119.786 278.728 117.607C278.188 115.494 278.068 113.103 279.241 111.056C280.415 109.008 282.53 107.918 284.616 107.332C286.766 106.729 289.412 106.506 292.422 106.592C298.464 106.763 306.598 108.195 316.57 111.074C336.552 116.843 364.41 128.568 398.6 148.458C432.791 168.348 456.798 186.794 471.748 201.345C479.208 208.607 484.506 214.989 487.674 220.175C489.253 222.759 490.384 225.178 490.941 227.357C491.481 229.47 491.601 231.861 490.428 233.908C489.254 235.956 487.139 237.046 485.053 237.632C482.903 238.235 480.257 238.458 477.247 238.372C471.205 238.201 463.071 236.769 453.099 233.89C450.528 233.148 447.827 232.307 444.998 231.362C446.638 229.658 448.215 227.874 449.723 226.012C451.505 226.581 453.228 227.105 454.892 227.585C464.584 230.383 472.139 231.667 477.43 231.816C480.085 231.892 482.017 231.676 483.306 231.314C484.385 231.011 484.723 230.694 484.787 230.627C484.812 230.538 484.916 230.084 484.637 228.991C484.303 227.685 483.523 225.892 482.131 223.612C479.357 219.071 474.476 213.12 467.225 206.062C452.752 191.975 429.207 173.835 395.346 154.138C361.485 134.44 334.121 122.964 314.777 117.379C305.085 114.581 297.53 113.298 292.239 113.148C289.584 113.072 287.652 113.288 286.363 113.65C285.284 113.953 284.946 114.271 284.882 114.337C284.857 114.426 284.753 114.88 285.032 115.973C285.366 117.279 286.146 119.072 287.538 121.352C290.312 125.893 295.193 131.844 302.444 138.902C303.628 140.055 304.874 141.235 306.181 142.441C305.333 144.689 304.586 146.957 303.939 149.24Z"
+                        fill="url(#paint1_radial-372291)"></path>
+              </g>
+              <g filter="url(#filter2_d-372291)">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M384.806 122C412.356 122 434.69 144.503 434.69 172.262C434.69 200.022 412.356 222.525 384.806 222.525C357.255 222.525 334.921 200.022 334.921 172.262C334.921 144.503 357.255 122 384.806 122Z"
+                      fill="url(#paint2_linear-372291)"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M384.806 122C412.356 122 434.69 144.503 434.69 172.262C434.69 200.022 412.356 222.525 384.806 222.525C357.255 222.525 334.921 200.022 334.921 172.262C334.921 144.503 357.255 122 384.806 122Z"
+                      fill="url(#paint3_linear-372291)"></path>
+              </g>
+              <path
+                      d="M412.13 168.504C414.407 169.372 420.461 171.911 421.674 174.811C423.161 178.375 419.539 185.876 416.245 187.531C412.939 189.195 410.883 191.182 410.126 192.381C409.955 192.652 409.656 193.463 409.388 194.191L409.367 194.251C408.334 197.058 406.922 200.895 403.978 202.055C403.109 202.398 401.617 203.43 400.04 204.525C396.642 206.881 392.845 209.512 389.685 209.512C389.226 209.512 388.782 209.459 388.354 209.339C387.26 209.034 385.759 208.152 384.822 205.679C383.332 201.739 383.961 195.463 386.196 191.972C387.052 190.634 386.351 187.239 385.931 185.211C385.738 184.287 385.573 183.487 385.53 182.879C385.38 182.44 383.962 181.095 383.112 180.289L383.11 180.287C381.242 178.516 379.629 176.987 379.629 175.303C379.629 171.94 384.951 165.2 386.581 163.214C386.776 162.978 387.03 162.803 387.316 162.708C389.072 162.124 393.359 160.814 395.253 161.292C396.81 161.685 399.232 163.089 400.137 163.635C401.636 163.788 406.596 164.363 408.873 165.578C408.994 165.642 409.106 165.722 409.206 165.814L412.13 168.504Z"
+                      fill="url(#paint4_linear-372291)"></path>
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M334.921 172.263C334.921 144.548 357.3 122 384.806 122C412.312 122 434.691 144.548 434.691 172.263C434.691 199.977 412.312 222.525 384.806 222.525C357.3 222.525 334.921 199.977 334.921 172.263ZM354.973 208.389C363.067 215.185 373.469 219.283 384.806 219.283C410.538 219.283 431.472 198.19 431.472 172.263C431.472 161.842 428.085 152.204 422.369 144.401C418.243 146.153 412.64 147.569 410.949 147.978C409.394 149.651 404.721 154.293 400.695 154.293C400.463 154.293 400.236 154.278 400.009 154.246C395.575 153.618 391.334 148.954 391.156 148.754C390.874 148.443 390.724 148.033 390.739 147.611C390.829 144.889 390.7 142.03 390.454 140.759C390.276 140.809 390.068 140.867 389.886 140.917L389.778 140.947C388.171 141.395 385.739 142.066 383.8 140.503C381.819 138.908 381.859 135.838 382.101 133.983C380.216 133.265 377.964 132.104 377.396 130.533C376.885 129.118 377.521 127.373 378.292 125.711C371.527 126.668 365.229 129.09 359.714 132.649C361.786 135 363.317 138.231 363.825 139.394C364.699 140.077 366.696 141.826 367.488 144.086C368.27 146.317 367.895 148.975 367.683 150.072C368.494 152.558 369.887 157.617 368.648 159.801C367.489 161.84 364.068 163.089 362.523 163.562C361.695 164.783 359.521 167.419 355.866 168.055C354.875 168.164 351.99 168.743 351.99 172.261C351.99 174.753 354.144 178.973 355.224 180.835C356.701 181.6 359.331 183.147 359.966 184.746C360.493 186.073 360.72 188.523 360.79 189.485C361.624 191.066 364.421 196.956 362.211 200.963C361.457 202.331 359.398 203.202 358.124 203.627L354.973 208.389Z"
+                    fill="url(#paint5_linear-372291)"></path>
+              <g filter="url(#filter3_d-372291)">
+                <path
+                        d="M445.257 113.515C447.991 112.606 450.605 111.794 453.097 111.074C463.069 108.195 471.203 106.763 477.245 106.592C480.255 106.506 482.9 106.729 485.051 107.332C487.137 107.918 489.252 109.008 490.425 111.056C491.599 113.103 491.478 115.494 490.939 117.607C490.382 119.786 489.25 122.205 487.672 124.789C484.504 129.975 479.206 136.357 471.745 143.619C456.796 158.17 432.789 176.617 398.598 196.506C364.408 216.396 336.549 228.121 316.568 233.89C306.596 236.769 298.462 238.201 292.42 238.372C289.41 238.458 286.764 238.235 284.614 237.632C282.527 237.046 280.413 235.956 279.239 233.908C278.066 231.861 278.186 229.47 278.726 227.357C279.283 225.179 280.414 222.759 281.993 220.175C285.161 214.989 290.459 208.607 297.919 201.345C299.843 199.473 301.916 197.536 304.142 195.54C304.787 197.823 305.532 200.091 306.379 202.338C304.999 203.609 303.687 204.85 302.442 206.062C295.191 213.12 290.31 219.071 287.536 223.612C286.144 225.892 285.363 227.685 285.03 228.991C284.751 230.084 284.855 230.538 284.88 230.627C284.944 230.694 285.282 231.011 286.361 231.314C287.65 231.676 289.582 231.892 292.237 231.817C297.528 231.667 305.083 230.383 314.775 227.585C334.119 222 361.483 210.524 395.344 190.826C429.205 171.129 452.75 152.989 467.223 138.902C474.474 131.844 479.354 125.893 482.129 121.352C483.521 119.072 484.301 117.279 484.635 115.973C484.914 114.88 484.81 114.426 484.785 114.337C484.721 114.27 484.383 113.953 483.304 113.65C482.014 113.288 480.083 113.072 477.428 113.148C472.137 113.298 464.582 114.581 454.89 117.379C453.307 117.836 451.67 118.333 449.98 118.87C448.472 117.006 446.896 115.221 445.257 113.515Z"
+                        fill="url(#paint6_radial-372291)"></path>
+              </g>
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M307.75 138.177C312.463 138.177 316.283 142.028 316.283 146.779C316.283 151.529 312.463 155.381 307.75 155.381C303.037 155.381 299.217 151.529 299.217 146.779C299.217 142.028 303.037 138.177 307.75 138.177Z"
+                    fill="#8562DC"></path>
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M443.366 108.722C448.081 108.722 451.903 112.573 451.903 117.324C451.903 122.074 448.081 125.925 443.366 125.925C438.651 125.925 434.829 122.074 434.829 117.324C434.829 112.573 438.651 108.722 443.366 108.722Z"
+                    fill="#583E9A"></path>
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M368.114 243.733C372.828 243.733 376.651 247.583 376.651 252.331C376.651 257.079 372.828 260.929 368.114 260.929C363.399 260.929 359.576 257.079 359.576 252.331C359.576 247.583 363.399 243.733 368.114 243.733Z"
+                    fill="#9846FC"></path>
+              <path
+                      d="M0 211.331H18.1275V180.291H47.6809V211.331H65.7717V134.088H47.6809V165.091H18.1275V134.088H0V211.331Z"
+                      fill="white"></path>
+              <path
+                      d="M87.1783 211.331L92.1222 195.113H118.013L122.957 211.331H142.44L117.134 134.088H93.0011L67.6958 211.331H87.1783ZM96.4435 180.932L104.757 153.55H105.342L113.692 180.932H96.4435Z"
+                      fill="white"></path>
+              <path
+                      d="M208.881 162.074C207.05 143.593 193.683 133.032 175.556 133.032C155.561 133.032 139.997 147.176 139.997 172.71C139.997 198.131 155.195 212.388 175.556 212.388C196.137 212.388 207.526 197.98 208.881 184.289L190.571 184.176C189.289 191.606 183.869 196.019 175.922 196.019C165.229 196.019 158.49 188.06 158.49 172.71C158.49 157.963 165.082 149.401 176.032 149.401C184.272 149.401 189.655 154.342 190.571 162.074H208.881Z"
+                      fill="white"></path>
+              <path
+                      d="M213.067 211.331H231.194V190.399L238.445 180.97L257.122 211.331H278.802L251.739 168.561L278.326 134.088H256.976L232.183 166.751H231.194V134.088H213.067V211.331Z"
+                      fill="white"></path>
+              <path
+                      d="M510.99 211.331L515.934 195.113H541.825L546.769 211.331H566.252L540.946 134.088H516.813L491.508 211.331H510.99ZM520.255 180.932L528.568 153.55H529.154L537.504 180.932H520.255Z"
+                      fill="white"></path>
+              <path d="M556.319 149.25H579.098V211.331H596.969V149.25H619.711V134.088H556.319V149.25Z"
+                    fill="white"></path>
+              <path
+                      d="M689.741 172.71C689.741 147.176 674.067 133.032 653.926 133.032C633.711 133.032 618.147 147.176 618.147 172.71C618.147 198.131 633.711 212.388 653.926 212.388C674.067 212.388 689.741 198.244 689.741 172.71ZM671.211 172.71C671.211 187.834 664.766 196.019 653.926 196.019C643.122 196.019 636.64 187.834 636.64 172.71C636.64 157.585 643.122 149.401 653.926 149.401C664.766 149.401 671.211 157.585 671.211 172.71Z"
+                      fill="white"></path>
+              <path
+                      d="M694.137 134.088V211.331H711.789V163.62H712.411L730.429 210.841H741.708L759.726 163.884H760.348V211.331H778V134.088H755.551L736.508 181.913H735.629L716.586 134.088H694.137Z"
+                      fill="white"></path>
+              <path
+                      d="M445.965 32.4268V34.4976C443.075 34.6569 441.197 34.9091 440.33 35.2542C439.489 35.5728 439.069 36.3958 439.069 37.7233C439.069 38.148 439.095 38.5463 439.148 38.918C439.226 39.2631 439.358 39.648 439.542 40.0728L451.757 70.1792H452.23L462.791 42.6215C463.027 42.0109 463.237 41.387 463.421 40.7498C463.736 39.7144 463.894 38.8781 463.894 38.241C463.894 36.7011 463.434 35.7454 462.515 35.3737C461.622 34.9754 459.783 34.6834 456.998 34.4976V32.4268H474.179V34.4179C472.208 34.6303 470.724 35.2144 469.726 36.1701C468.754 37.0994 467.808 38.7454 466.889 41.1082L448.487 89.0555H446.359L425.592 40.1923C424.752 38.2277 423.885 36.8206 422.992 35.971C422.125 35.0949 420.759 34.5772 418.894 34.4179V32.4268H445.965Z"
+                      fill="url(#paint7_linear-372291)"></path>
+              <path
+                      d="M475.599 85.4714C477.884 85.4183 479.526 85.1395 480.524 84.6351C482.153 83.7855 482.967 82.1528 482.967 79.7368V40.2719C482.967 37.856 482.193 36.2365 480.643 35.4135C479.697 34.9091 478.016 34.6038 475.599 34.4976V32.4268H503.813V34.4976C501.291 34.6038 499.557 34.8958 498.611 35.3737C497.035 36.1967 496.247 37.8295 496.247 40.2719V79.7368C496.247 82.02 496.877 83.5466 498.138 84.3165C499.399 85.0864 501.291 85.4714 503.813 85.4714V87.5422H475.599V85.4714Z"
+                      fill="url(#paint8_linear-372291)"></path>
+              <defs>
+                <filter id="filter0_d-372291" x="302.09" y="0.541022" width="172.608" height="370.098"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                  <feColorMatrix in="SourceAlpha" type="matrix"
+                                 values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                 result="hardAlpha"></feColorMatrix>
+                  <feOffset dy="13.1058"></feOffset>
+                  <feGaussianBlur stdDeviation="31.1263"></feGaussianBlur>
+                  <feColorMatrix type="matrix"
+                                 values="0 0 0 0 0.911354 0 0 0 0 0.294823 0 0 0 0 0.163646 0 0 0 0.88 0"></feColorMatrix>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow"
+                           result="shape"></feBlend>
+                </filter>
+                <filter id="filter1_d-372291" x="216.081" y="57.4275" width="337.506" height="256.321"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                  <feColorMatrix in="SourceAlpha" type="matrix"
+                                 values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                 result="hardAlpha"></feColorMatrix>
+                  <feOffset dy="13.1058"></feOffset>
+                  <feGaussianBlur stdDeviation="31.1263"></feGaussianBlur>
+                  <feColorMatrix type="matrix"
+                                 values="0 0 0 0 0.196078 0 0 0 0 0.0431373 0 0 0 0 0.576471 0 0 0 0.88 0"></feColorMatrix>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow"
+                           result="shape"></feBlend>
+                </filter>
+                <filter id="filter2_d-372291" x="289.555" y="68.3853" width="174.005" height="174.761"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                  <feColorMatrix in="SourceAlpha" type="matrix"
+                                 values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                 result="hardAlpha"></feColorMatrix>
+                  <feOffset dx="-8.24838" dy="-16.4968"></feOffset>
+                  <feGaussianBlur stdDeviation="18.5588"></feGaussianBlur>
+                  <feColorMatrix type="matrix"
+                                 values="0 0 0 0 0.445834 0 0 0 0 0.7815 0 0 0 0 0.8875 0 0 0 0.42 0"></feColorMatrix>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow"
+                           result="shape"></feBlend>
+                </filter>
+                <filter id="filter3_d-372291" x="238.114" y="74.8233" width="293.437" height="212.251"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                  <feColorMatrix in="SourceAlpha" type="matrix"
+                                 values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                 result="hardAlpha"></feColorMatrix>
+                  <feOffset dy="8.46689"></feOffset>
+                  <feGaussianBlur stdDeviation="20.1089"></feGaussianBlur>
+                  <feColorMatrix type="matrix"
+                                 values="0 0 0 0 0.258824 0 0 0 0 0.317647 0 0 0 0 0.980392 0 0 0 1 0"></feColorMatrix>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow"
+                           result="shape"></feBlend>
+                </filter>
+                <radialGradient id="paint0_radial-372291" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(379.623 146.712) rotate(57.3918) scale(169.272 63.3353)">
+                  <stop offset="0.537471" stop-color="#320B93" stop-opacity="0"></stop>
+                  <stop offset="0.609199" stop-color="#25084A"></stop>
+                  <stop offset="0.806358" stop-color="#9B45FC"></stop>
+                </radialGradient>
+                <radialGradient id="paint1_radial-372291" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(404.361 189.971) rotate(-117.05) scale(169.37 63.2982)">
+                  <stop offset="0.53524" stop-color="#320B93" stop-opacity="0"></stop>
+                  <stop offset="0.609199" stop-color="#7B59CE" stop-opacity="0.47"></stop>
+                  <stop offset="0.727936" stop-color="#8562DC"></stop>
+                </radialGradient>
+                <linearGradient id="paint2_linear-372291" x1="384.834" y1="121.043" x2="434.443"
+                                y2="221.567" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#8BB1CD"></stop>
+                  <stop offset="0.526042" stop-color="#36271F"></stop>
+                </linearGradient>
+                <linearGradient id="paint3_linear-372291" x1="384.834" y1="121.043" x2="434.443"
+                                y2="221.567" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#A5FBFF"></stop>
+                  <stop offset="0.526042" stop-color="#281260"></stop>
+                </linearGradient>
+                <linearGradient id="paint4_linear-372291" x1="373.184" y1="121.775" x2="430.215" y2="221.88"
+                                gradientUnits="userSpaceOnUse">
+                  <stop offset="0.134426" stop-color="#A5FBFF"></stop>
+                  <stop offset="0.385417" stop-color="#40B2FF"></stop>
+                  <stop offset="0.791667" stop-color="#5C65CA" stop-opacity="0.42"></stop>
+                </linearGradient>
+                <linearGradient id="paint5_linear-372291" x1="373.184" y1="121.775" x2="430.215" y2="221.88"
+                                gradientUnits="userSpaceOnUse">
+                  <stop offset="0.134426" stop-color="#A5FBFF"></stop>
+                  <stop offset="0.385417" stop-color="#40B2FF"></stop>
+                  <stop offset="0.791667" stop-color="#5C65CA" stop-opacity="0.42"></stop>
+                </linearGradient>
+                <radialGradient id="paint6_radial-372291" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(308.894 198.715) rotate(-24.0961) scale(535.105 201.884)">
+                  <stop offset="0.0364583" stop-color="#320B93" stop-opacity="0.17"></stop>
+                  <stop offset="0.119409" stop-color="#320B93"></stop>
+                  <stop offset="0.20959" stop-color="#B182EE"></stop>
+                  <stop offset="0.32501" stop-color="#3D2086"></stop>
+                  <stop offset="0.454709" stop-color="#4B2F91"></stop>
+                  <stop offset="0.84375" stop-color="#A37EFF" stop-opacity="0.49"></stop>
+                </radialGradient>
+                <linearGradient id="paint7_linear-372291" x1="491.408" y1="60.8867" x2="472.992"
+                                y2="143.135" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#845BE9"></stop>
+                  <stop offset="0.510504" stop-color="#25084A"></stop>
+                  <stop offset="0.861337" stop-color="#31135E" stop-opacity="0.59"></stop>
+                </linearGradient>
+                <linearGradient id="paint8_linear-372291" x1="491.408" y1="60.8867" x2="472.992"
+                                y2="143.135" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#845BE9"></stop>
+                  <stop offset="0.510504" stop-color="#25084A"></stop>
+                  <stop offset="0.861337" stop-color="#31135E" stop-opacity="0.59"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+            <span class="sr-only" data-v-5508487d>Hackatom</span></a></div>
+          <nav role="navigation" class="nav" data-v-5508487d>
+            <div class="menu" data-v-5508487d>
+              <div class="nav-item" data-v-5508487d>
+                <div class="nav-item__title tm-rf0 tm-lh-title tm-medium tm-title mb-5" data-v-5508487d>
+                  HackAtom
+                </div>
+                <div class="nav-item__child tm-rf0 tm-lh-copy" data-v-5508487d><a
+                        href="https://cosmos-hackatom-vi.devpost.com" target="_blank" rel="noopener noreferrer"
+                        class="tm-link-external tm-link" data-v-e4552be4 data-v-5508487d>
+                  Participate
+                </a></div>
+                <div class="nav-item__child tm-rf0 tm-lh-copy" data-v-5508487d><a
+                        href="https://cosmos-hackatom-vi.devpost.com/details/faqs" target="_blank"
+                        rel="noopener noreferrer" class="tm-link-external tm-link" data-v-e4552be4
+                        data-v-5508487d>
+                  FAQ
+                </a></div>
+                <div class="nav-item__child tm-rf0 tm-lh-copy" data-v-5508487d><a
+                        href="https://cosmos-hackatom-vi.devpost.com/rules" target="_blank"
+                        rel="noopener noreferrer" class="tm-link-external tm-link" data-v-e4552be4
+                        data-v-5508487d>
+                  Regulations
+                </a></div>
+              </div>
+              <div class="nav-item" data-v-5508487d>
+                <div class="nav-item__title tm-rf0 tm-lh-title tm-medium tm-title mb-5" data-v-5508487d>
+                  Help
+                </div>
+                <div class="nav-item__child tm-rf0 tm-lh-copy" data-v-5508487d><a
+                        href="https://discord.gg/cosmosnetwork" target="_blank" rel="noopener noreferrer"
+                        class="tm-link-external tm-link" data-v-e4552be4 data-v-5508487d>
+                  Developer Chat
+                </a></div>
+              </div>
+              <div class="nav-item" data-v-5508487d>
+                <div class="nav-item__title tm-rf0 tm-lh-title tm-medium tm-title mb-5" data-v-5508487d>
+                  Build on Cosmos
+                </div>
+                <div class="nav-item__child tm-rf0 tm-lh-copy" data-v-5508487d><a
+                        href="https://starport.com/" target="_blank" rel="noopener noreferrer"
+                        class="tm-link-external tm-link" data-v-e4552be4 data-v-5508487d>
+                  Starport
+                </a></div>
+                <div class="nav-item__child tm-rf0 tm-lh-copy" data-v-5508487d><a
+                        href="https://v1.cosmos.network/sdk" target="_blank" rel="noopener noreferrer"
+                        class="tm-link-external tm-link" data-v-e4552be4 data-v-5508487d>
+                  Cosmos SDK
+                </a></div>
+                <div class="nav-item__child tm-rf0 tm-lh-copy" data-v-5508487d><a
+                        href="https://ibcprotocol.org" target="_blank" rel="noopener noreferrer"
+                        class="tm-link-external tm-link" data-v-e4552be4 data-v-5508487d>
+                  IBC Protocol
+                </a></div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="row" data-v-5508487d>
+          <div class="nav-bottom tm-rf-1 tm-lh-copy" data-v-5508487d><a
+                  href="https://v1.cosmos.network/privacy" target="_blank" rel="noopener noreferrer"
+                  class="tm-link" data-v-e4552be4 data-v-5508487d>
+            Privacy Policy
+          </a></div>
+          <nav role="navigation" class="social-icons mt-7" data-v-5508487d>
+            <a href="https://blog.cosmos.network/" target="_blank" rel="noopener noreferrer"
+               class="social-icons__item tm-link" data-v-e4552be4 data-v-5508487d>
+              <div class="container" data-v-55e19ee8 data-v-5508487d>
+                <button position="top-center" class="tm-link" data-v-55e19ee8>
+                  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                       clip-rule="evenodd" fill="currentColor" data-v-55e19ee8 data-v-5508487d>
+                    <path
+                            d="M23 0.000976563H1C0.734784 0.000976563 0.48043 0.106333 0.292893 0.29387C0.105357 0.481406 0 0.73576 0 1.00098L0 23.001C0 23.2662 0.105357 23.5205 0.292893 23.7081C0.48043 23.8956 0.734784 24.001 1 24.001H23C23.2652 24.001 23.5196 23.8956 23.7071 23.7081C23.8946 23.5205 24 23.2662 24 23.001V1.00098C24 0.73576 23.8946 0.481406 23.7071 0.29387C23.5196 0.106333 23.2652 0.000976563 23 0.000976562V0.000976563ZM19.938 5.68698L18.651 6.92098C18.5966 6.96244 18.5545 7.01798 18.5293 7.08159C18.5041 7.1452 18.4967 7.21449 18.508 7.28198V16.35C18.4967 16.4175 18.5041 16.4867 18.5293 16.5504C18.5545 16.614 18.5966 16.6695 18.651 16.711L19.908 17.945V18.216H13.586V17.945L14.886 16.681C15.014 16.553 15.014 16.515 15.014 16.32V8.99098L11.393 18.191H10.904L6.691 8.99098V15.154C6.67366 15.2818 6.68562 15.4118 6.72599 15.5343C6.76636 15.6568 6.83407 15.7685 6.924 15.861L8.618 17.915V18.186H3.818V17.915L5.509 15.861C5.5982 15.7685 5.6644 15.6563 5.70227 15.5335C5.74014 15.4107 5.74861 15.2807 5.727 15.154V8.02798C5.73727 7.93061 5.72452 7.83219 5.68978 7.74065C5.65504 7.64911 5.59929 7.56701 5.527 7.50098L4.019 5.68698V5.41598H8.693L12.306 13.34L15.482 5.41598H19.938V5.68698Z"
+                            style="pointer-events:none" data-v-55e19ee8 data-v-5508487d></path>
+                  </svg>
+                </button>
+              </div>
+            </a>
+            <a href="https://twitter.com/hack4atom" target="_blank" rel="noopener noreferrer"
+               class="social-icons__item tm-link" data-v-e4552be4 data-v-5508487d>
+              <div class="container" data-v-55e19ee8 data-v-5508487d>
+                <button position="top-center" class="tm-link" data-v-55e19ee8>
+                  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                       clip-rule="evenodd" fill="currentColor" data-v-55e19ee8 data-v-5508487d>
+                    <path
+                            d="M24 4.60078C23.1 5.00078 22.2 5.30078 21.2 5.40078C22.2 4.80078 23 3.80078 23.4 2.70078C22.4 3.30078 21.4 3.70078 20.3 3.90078C19.4 2.90078 18.1 2.30078 16.7 2.30078C14 2.30078 11.8 4.50078 11.8 7.20078C11.8 7.60078 11.8 8.00078 11.9 8.30078C7.7 8.10078 4.1 6.10078 1.7 3.10078C1.2 3.90078 1 4.70078 1 5.60078C1 7.30078 1.9 8.80078 3.2 9.70078C2.4 9.70078 1.6 9.50078 1 9.10078C1 9.10078 1 9.10078 1 9.20078C1 11.6008 2.7 13.6008 4.9 14.0008C4.5 14.1008 4.1 14.2008 3.6 14.2008C3.3 14.2008 3 14.2008 2.7 14.1008C3.3 16.1008 5.1 17.5008 7.3 17.5008C5.6 18.8008 3.5 19.6008 1.2 19.6008C0.8 19.6008 0.4 19.6008 0 19.5008C2.2 20.9008 4.8 21.7008 7.5 21.7008C16.6 21.7008 21.5 14.2008 21.5 7.70078C21.5 7.50078 21.5 7.30078 21.5 7.10078C22.5 6.40078 23.3 5.50078 24 4.60078Z"
+                            style="pointer-events:none" data-v-55e19ee8 data-v-5508487d></path>
+                  </svg>
+                </button>
+              </div>
+            </a>
+            <a href="https://reddit.com/r/cosmosnetwork" target="_blank" rel="noopener noreferrer"
+               class="social-icons__item tm-link" data-v-e4552be4 data-v-5508487d>
+              <div class="container" data-v-55e19ee8 data-v-5508487d>
+                <button position="top-center" class="tm-link" data-v-55e19ee8>
+                  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                       clip-rule="evenodd" fill="currentColor" data-v-55e19ee8 data-v-5508487d>
+                    <path
+                            d="M24 11.8009C24 10.2009 22.7 8.90088 21.1 8.90088C20.4 8.90088 19.8 9.10088 19.3 9.50088C17.5 8.40088 15.3 7.70088 12.9 7.60088L14.1 3.70088L17.5 4.50088C17.6 5.70088 18.6 6.70088 19.9 6.70088C21.2 6.70088 22.3 5.60088 22.3 4.30088C22.3 3.00088 21.2 1.90088 19.9 1.90088C19 1.90088 18.2 2.40088 17.8 3.20088L13.8 2.30088C13.5 2.20088 13.1 2.40088 13 2.70088L11.5 7.60088C9 7.70088 6.5 8.30088 4.7 9.50088C4.2 9.10088 3.6 8.90088 2.9 8.90088C1.3 8.90088 0 10.2009 0 11.8009C0 12.8009 0.5 13.7009 1.2 14.2009C1.2 14.4009 1.2 14.7009 1.2 14.9009C1.2 16.9009 2.4 18.7009 4.5 20.1009C6.5 21.4009 9.2 22.1009 12 22.1009C14.8 22.1009 17.5 21.4009 19.5 20.1009C21.6 18.7009 22.8 16.9009 22.8 14.9009C22.8 14.7009 22.8 14.5009 22.8 14.3009C23.5 13.7009 24 12.8009 24 11.8009ZM20 3.20088C20.6 3.20088 21.1 3.70088 21.1 4.30088C21.1 4.90088 20.6 5.40088 20 5.40088C19.4 5.40088 18.9 4.90088 18.9 4.30088C18.9 3.70088 19.4 3.20088 20 3.20088ZM6.8 13.6009C6.8 12.7009 7.6 12.0009 8.4 12.0009C9.3 12.0009 10 12.8009 10 13.6009C10 14.4009 9.3 15.2009 8.4 15.2009C7.6 15.2009 6.8 14.5009 6.8 13.6009ZM16 18.3009C15.2 19.1009 13.9 19.5009 12.1 19.5009C10.3 19.5009 9 19.1009 8.2 18.3009C7.9 18.0009 7.9 17.6009 8.2 17.4009C8.5 17.1009 8.9 17.1009 9.1 17.4009C9.7 18.0009 10.7 18.3009 12.1 18.3009C13.5 18.3009 14.5 18.0009 15.1 17.4009C15.4 17.1009 15.8 17.1009 16 17.4009C16.2 17.7009 16.2 18.1009 16 18.3009ZM15.6 15.2009C14.7 15.2009 13.9 14.5009 13.9 13.6009C13.9 12.7009 14.7 12.0009 15.6 12.0009C16.5 12.0009 17.2 12.8009 17.2 13.6009C17.2 14.4009 16.5 15.2009 15.6 15.2009Z"
+                            style="pointer-events:none" data-v-55e19ee8 data-v-5508487d></path>
+                  </svg>
+                </button>
+              </div>
+            </a>
+            <a href="https://t.me/cosmosproject" target="_blank" rel="noopener noreferrer"
+               class="social-icons__item tm-link" data-v-e4552be4 data-v-5508487d>
+              <div class="container" data-v-55e19ee8 data-v-5508487d>
+                <button position="top-center" class="tm-link" data-v-55e19ee8>
+                  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                       clip-rule="evenodd" fill="currentColor" data-v-55e19ee8 data-v-5508487d>
+                    <path
+                            d="M23.953 2.52809C23.9336 2.43947 23.8911 2.35756 23.8298 2.29065C23.7685 2.22375 23.6906 2.17422 23.604 2.14709C23.2887 2.08464 22.9624 2.10777 22.659 2.21409C22.659 2.21409 1.63003 9.77309 0.429029 10.6101C0.171029 10.7901 0.0840289 10.8951 0.0410289 11.0181C-0.166971 11.6181 0.480029 11.8761 0.480029 11.8761L5.90003 13.6421C5.99167 13.6585 6.08591 13.653 6.17503 13.6261C7.40703 12.8471 18.575 5.79209 19.224 5.55509C19.324 5.52509 19.401 5.55509 19.381 5.63009C19.123 6.53509 9.47203 15.1081 9.41903 15.1601C9.39321 15.1812 9.3731 15.2085 9.36052 15.2394C9.34795 15.2703 9.34331 15.3039 9.34703 15.3371L8.84103 20.6291C8.84103 20.6291 8.62903 22.2761 10.276 20.6291C11.444 19.4601 12.565 18.4921 13.125 18.0211C14.989 19.3081 16.994 20.7311 17.859 21.4761C18.0045 21.6169 18.1769 21.727 18.3659 21.7997C18.5549 21.8723 18.7567 21.9062 18.959 21.8991C19.2082 21.8687 19.4423 21.7632 19.63 21.5965C19.8178 21.4298 19.9503 21.2099 20.01 20.9661C20.01 20.9661 23.84 5.54309 23.968 3.47709C23.981 3.27709 23.998 3.14509 24 3.00609C24.0063 2.84536 23.9904 2.68453 23.953 2.52809Z"
+                            style="pointer-events:none" data-v-55e19ee8 data-v-5508487d></path>
+                  </svg>
+                </button>
+              </div>
+            </a>
+            <a href="https://discord.gg/cosmosnetwork" target="_blank" rel="noopener noreferrer"
+               class="social-icons__item tm-link" data-v-e4552be4 data-v-5508487d>
+              <div class="container" data-v-55e19ee8 data-v-5508487d>
+                <button position="top-center" class="tm-link" data-v-55e19ee8>
+                  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                       clip-rule="evenodd" fill="currentColor" data-v-55e19ee8 data-v-5508487d>
+                    <path
+                            d="M19.54 0c1.356 0 2.46 1.104 2.46 2.472v21.528l-2.58-2.28-1.452-1.344-1.536-1.428.636 2.22h-13.608c-1.356 0-2.46-1.104-2.46-2.472v-16.224c0-1.368 1.104-2.472 2.46-2.472h16.08zm-4.632 15.672c2.652-.084 3.672-1.824 3.672-1.824 0-3.864-1.728-6.996-1.728-6.996-1.728-1.296-3.372-1.26-3.372-1.26l-.168.192c2.04.624 2.988 1.524 2.988 1.524-1.248-.684-2.472-1.02-3.612-1.152-.864-.096-1.692-.072-2.424.024l-.204.024c-.42.036-1.44.192-2.724.756-.444.204-.708.348-.708.348s.996-.948 3.156-1.572l-.12-.144s-1.644-.036-3.372 1.26c0 0-1.728 3.132-1.728 6.996 0 0 1.008 1.74 3.66 1.824 0 0 .444-.54.804-.996-1.524-.456-2.1-1.416-2.1-1.416l.336.204.048.036.047.027.014.006.047.027c.3.168.6.3.876.408.492.192 1.08.384 1.764.516.9.168 1.956.228 3.108.012.564-.096 1.14-.264 1.74-.516.42-.156.888-.384 1.38-.708 0 0-.6.984-2.172 1.428.36.456.792.972.792.972zm-5.58-5.604c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332.012-.732-.54-1.332-1.224-1.332zm4.38 0c-.684 0-1.224.6-1.224 1.332 0 .732.552 1.332 1.224 1.332.684 0 1.224-.6 1.224-1.332 0-.732-.54-1.332-1.224-1.332z"
+                            style="pointer-events:none" data-v-55e19ee8 data-v-5508487d></path>
+                  </svg>
+                </button>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/c/CosmosProject" target="_blank" rel="noopener noreferrer"
+               class="social-icons__item tm-link" data-v-e4552be4 data-v-5508487d>
+              <div class="container" data-v-55e19ee8 data-v-5508487d>
+                <button position="top-center" class="tm-link" data-v-55e19ee8>
+                  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                       clip-rule="evenodd" fill="currentColor" data-v-55e19ee8 data-v-5508487d>
+                    <path
+                            d="M23.8 7.20107C23.8 7.20107 23.6 5.50107 22.8 4.80107C21.9 3.80107 20.9 3.80107 20.4 3.80107C17 3.60107 12 3.60107 12 3.60107C12 3.60107 7 3.60107 3.6 3.80107C3.1 3.90107 2.1 3.90107 1.2 4.80107C0.5 5.50107 0.2 7.20107 0.2 7.20107C0.2 7.20107 0 9.10107 0 11.1011V12.9011C0 14.8011 0.2 16.8011 0.2 16.8011C0.2 16.8011 0.4 18.5011 1.2 19.2011C2.1 20.2011 3.3 20.1011 3.8 20.2011C5.7 20.4011 12 20.4011 12 20.4011C12 20.4011 17 20.4011 20.4 20.1011C20.9 20.0011 21.9 20.0011 22.8 19.1011C23.5 18.4011 23.8 16.7011 23.8 16.7011C23.8 16.7011 24 14.8011 24 12.8011V11.0011C24 9.10107 23.8 7.20107 23.8 7.20107ZM9.5 15.1011V8.40107L16 11.8011L9.5 15.1011Z"
+                            style="pointer-events:none" data-v-55e19ee8 data-v-5508487d></path>
+                  </svg>
+                </button>
+              </div>
+            </a>
+          </nav>
+        </div>
+        <p class="smallprint tm-rf-1 tm-lh-copy mt-8 tm-muted" data-v-5508487d>
+          † This website is maintained by Tendermint. The contents and opinions of this website are those of
+          Tendermint. Tendermint provides links to cryptocurrency exchanges as a service to the public. Tendermint
+          does not warrant that the information provided
+          by these websites is correct, complete, and up-to-date. Tendermint is not responsible for their content
+          and expressly rejects any liability for damages of any kind resulting from the use, reference to, or
+          reliance on any information
+          contained within these websites.
+        </p>
+        <p class="smallprint copy tm-rf-1 tm-lh-copy mt-8 tm-muted" data-v-5508487d><span data-v-5508487d>Brought to you by</span>
+          <a href="https://tendermint.com/" target="_blank" rel="noopener noreferrer" class="tm-link"
+             data-v-e4552be4 data-v-5508487d><span class="sr-only" data-v-e4552be4
+                                                   data-v-5508487d>Tendermint</span> <img
+                  src="/_nuxt/img/47494bc.svg" class="logo-item" data-v-e4552be4 data-v-5508487d /></a> <span
+                  data-v-5508487d>and</span> <a href="https://interchain.io/" target="_blank"
+                                                rel="noopener noreferrer" class="tm-link" data-v-e4552be4
+                                                data-v-5508487d><span class="sr-only" data-v-e4552be4
+                                                                      data-v-5508487d>Interchain Foundation</span>
+            <img src="/_nuxt/img/ed03bc4.svg" class="logo-item" data-v-e4552be4 data-v-5508487d /></a></p>
+      </footer>
+    </div>
+  </body>
+</html>
