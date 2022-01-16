@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "jsx": "react"
+    },
+    "comment": "not used by snowpack as far as I can tell, this will keep your IDE from crying, though."
+}
