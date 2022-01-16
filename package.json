@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "snowpack dev",
-    "build": "snowpack build",
-    "serve": "snowpack build --serve"
+    "build": "snowpack build --clean",
+    "serve": "static-server ./build -p 8081"
   },
   "devDependencies": {
     "@snowpack/plugin-postcss": "^1.4.3",
@@ -17,8 +17,8 @@
     "@types/react-dom": "^17.0.11",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.5",
-    "serve-static": "^1.14.2",
     "snowpack": "^3.8.8",
+    "static-server": "^2.2.1",
     "tailwindcss": "^3.0.14",
     "typescript": "^4.5.4"
   },
